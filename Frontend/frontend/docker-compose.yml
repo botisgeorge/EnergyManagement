@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  react:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+       - "3003:3000"
+    environment:
+      - USERBACKEND=172.30.0.5
+      - DEVICEBACKEND=172.30.0.4
+      - MONITORINGANDCOMMUNICATION=172.30.0.6
+      - CHAT=172.30.0.7
+    networks:
+      demo_net:
+        ipv4_address: 172.30.0.10
+
+networks:
+  demo_net:
+    external: true

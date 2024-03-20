@@ -1,0 +1,44 @@
+ 
+  .users-button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px; /* Adjust padding for smaller size */
+    cursor: not-allowed;
+  }
+  
+  .add-user-button {
+    margin-top: 10px;
+    background-color: #5c6172;
+  }
+
+  .add-user-button:hover {
+    background-color: #343740; 
+  }
+
+  .edit-button {
+    background-color: #d3cd56;
+    margin-right: 10px;
+  }
+
+  .edit-button:hover {
+    background-color: #8b873a;
+  }
+  .delete-button {
+    background-color: #a11607; 
+  }
+
+  .delete-button:hover {
+    background-color: #440a03;
+  }
+  devices-button,
+  .chat-button {
+    margin-right: 10px; /* Add space between the buttons */
+  }
+
+  .unpressable-button {
+    background-color: #5c725d;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }

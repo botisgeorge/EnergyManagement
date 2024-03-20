@@ -1,0 +1,61 @@
+/* UserHome.module.css */
+
+.user-page-container {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 28px; /* Increase font size for welcome title */
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 2px solid rgb(53, 53, 53); /* Add border to the table */
+  }
+  
+  th, td {
+    border: 1px solid rgb(53, 53, 53);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .talk-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px; /* Add rounded corners to the button */
+  }
+  
+  .talk-button:hover {
+    background-color: #0056b3;
+  }
+  
+  button {
+    background-color: #59955b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners to the button */
+  }
+  
+  button:hover {
+    background-color: #5c725d;
+  }
+  
